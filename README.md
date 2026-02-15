@@ -11,7 +11,7 @@
 
 ```bash
 # Clone the repo
-git clone https://github.com/mainmmttmain/My-Portfolio.git
+git clone https://github.com/MAINMMTTMAIN/My-Portfolio.git
 
 # Go inside
 cd My-Portfolio
