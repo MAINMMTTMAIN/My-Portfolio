@@ -1,0 +1,51 @@
+.video-carousel-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.video-carousel-wrapper video {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover; // اگر لازم بود نسبت رو حفظ کنه
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.2s;
+
+  &:hover {
+    background: rgba(80, 0, 202, 0.8); // رنگ تم تو
+  }
+
+  &.left {
+    left: 8px;
+  }
+
+  &.right {
+    right: 8px;
+  }
+}
+
+/* اگر تعداد ویدئوها زیاد بود و خواستی فلش‌ها کوچکتر بشن */
+@media (max-width: 600px) {
+  .carousel-arrow {
+    width: 30px;
+    height: 30px;
+  }
+}
