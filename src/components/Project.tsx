@@ -9,23 +9,32 @@ import mock14 from '../assets/images/mock14.mp4';
 import mock15 from '../assets/images/mock15.mp4';
 import mock16 from '../assets/images/mock16.mp4';
 import mock17 from '../assets/images/mock17.png';
+<<<<<<< HEAD
 import mock18 from '../assets/images/mock18.png';
 import mock19 from '../assets/images/mock19.mp4';
 import mock20 from '../assets/images/mock20.mp4';
+=======
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
 
 import '../assets/styles/Project.scss';
 import '../assets/styles/Carousel.scss';
 
 function Project() {
     const Videos = [
+<<<<<<< HEAD
     { src: mock19, title: "Animation 5", desc: "I make this animation in 2026" },
     { src: mock20, title: "Animation 6", desc: "I make this animation in 2026" },
+=======
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
     { src: mock12, title: "Animation 1", desc: "These animations were made when I was really young (17 years old) and dreamed of becoming the greatest animator in the world.They were created using an Android app (I don’t remember the exact name, but I think it was FlipaClip).The first two simulate a falling leaf and a brick hitting the ground. The rest show different human reactions." },
     { src: mock13, title: "Animation 2", desc: "These animations were made when I was really young (17 years old) and dreamed of becoming the greatest animator in the world.They were created using an Android app (I don’t remember the exact name, but I think it was FlipaClip).The first two simulate a falling leaf and a brick hitting the ground. The rest show different human reactions." },
     { src: mock14, title: "Animation 3", desc: "These animations were made when I was really young (17 years old) and dreamed of becoming the greatest animator in the world.They were created using an Android app (I don’t remember the exact name, but I think it was FlipaClip).The first two simulate a falling leaf and a brick hitting the ground. The rest show different human reactions." },
     { src: mock15, title: "Animation 4", desc: "These animations were made when I was really young (17 years old) and dreamed of becoming the greatest animator in the world.They were created using an Android app (I don’t remember the exact name, but I think it was FlipaClip).The first two simulate a falling leaf and a brick hitting the ground. The rest show different human reactions." },
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
   ];
 
   const [currentVideo, setCurrentVideo] = useState(0);
@@ -97,11 +106,14 @@ function Project() {
                 <a href="https://github.com/MAINMMTTMAIN/SystemPulse" target="_blank" rel="noreferrer"><h2>SystemPulse</h2></a>
                 <p>A lightweight system monitor built with Python that tracks CPU, RAM, battery, and GPU usage in real-time.</p>
             </div>
+<<<<<<< HEAD
             <div className="project">
                 <a href="https://github.com/MAINMMTTMAIN/QR-Toolkit" target="_blank" rel="noreferrer"><img src={mock18} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/MAINMMTTMAIN/QR-Toolkit" target="_blank" rel="noreferrer"><h2>QR Toolkit</h2></a>
                 <p>QR Toolkit is a modern and powerful desktop application for generating and scanning QR codes. With a clean, responsive user interface built using CustomTkinter, it offers a seamless experience whether you're creating QR codes from text or scanning them from your camera or gallery.</p>
             </div>
+=======
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
         </div>
     </div>
     );

@@ -24,7 +24,11 @@ a {
 }
 
 a:hover {
+<<<<<<< HEAD
   color: #848188;
+=======
+  color: #5000ca;
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
@@ -104,7 +108,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   a:hover {
+<<<<<<< HEAD
     color: #848188;
+=======
+    color: #5000ca;
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
   }
 
@@ -152,6 +160,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
       padding: 5% 5%;
     }
   }
+<<<<<<< HEAD
 }
 /* ====================== Preloader ====================== */
 .loading-screen {
@@ -220,4 +229,6 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .hidden {
   display: none;
+=======
+>>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
 }
