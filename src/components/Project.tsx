@@ -12,6 +12,7 @@ import mock17 from '../assets/images/mock17.png';
 import mock18 from '../assets/images/mock18.png';
 import mock19 from '../assets/images/mock19.mp4';
 import mock20 from '../assets/images/mock20.mp4';
+import mock21 from '../assets/images/mock21.png';
 
 import '../assets/styles/Project.scss';
 import '../assets/styles/Carousel.scss';
@@ -41,14 +42,15 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="projects-grid">
 
+
                 <div className="project">
-                    <a href="https://github.com/MAINMMTTMAIN/python-tkinter-snake-game" target="_blank" rel="noreferrer">
-                        <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
+                    <a href="https://github.com/MAINMMTTMAIN/Offline-Games" target="_blank" rel="noreferrer">
+                        <img src={mock21} className="zoom" alt="thumbnail" width="60%"/>
                     </a>
-                    <a href="https://github.com/MAINMMTTMAIN/python-tkinter-snake-game" target="_blank" rel="noreferrer">
-                        <h2>Snake Game</h2>
+                    <a href="https://github.com/MAINMMTTMAIN/Offline-Games" target="_blank" rel="noreferrer">
+                        <h2>Offline Games</h2>
                     </a>
-                    <p>A classic Snake game rebuilt with Python & Tkinter, featuring user login, leaderboard, dark/light mode, custom snake colors, background music, and more!</p>
+                    <p>An expandable collection of local multiplayer games in Python.</p>
                 </div>
 
                 <div className="project">
@@ -78,6 +80,17 @@ function Project() {
                     <p>
                         {Videos[currentVideo].desc}
                     </p>
+                </div>
+                
+                
+                <div className="project">
+                    <a href="https://github.com/MAINMMTTMAIN/python-tkinter-snake-game" target="_blank" rel="noreferrer">
+                        <img src={mock10} className="zoom" alt="thumbnail" width="100%"/>
+                    </a>
+                    <a href="https://github.com/MAINMMTTMAIN/python-tkinter-snake-game" target="_blank" rel="noreferrer">
+                        <h2>Snake Game</h2>
+                    </a>
+                    <p>A classic Snake game rebuilt with Python & Tkinter, featuring user login, leaderboard, dark/light mode, custom snake colors, background music, and more!</p>
                 </div>
 
                 <div className="project">
@@ -115,6 +128,8 @@ function Project() {
                     </a>
                     <p>QR Toolkit is a modern and powerful desktop application for generating and scanning QR codes. With a clean, responsive user interface built using CustomTkinter, it offers a seamless experience whether you're creating QR codes from text or scanning them from your camera or gallery.</p>
                 </div>
+
+                
 
             </div>
         </div>
