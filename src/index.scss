@@ -16,7 +16,6 @@ code {
 .main-container {
   position: relative;
   background-color: #0d1116;
-
 }
 
 a {
@@ -24,12 +23,8 @@ a {
 }
 
 a:hover {
-<<<<<<< HEAD
-  color: #848188;
-=======
   color: #5000ca;
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
-  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
 
 p, a, h1, h2, h3, h4, h5, label, button {
@@ -108,12 +103,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   a:hover {
-<<<<<<< HEAD
-    color: #848188;
-=======
     color: #5000ca;
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
   }
 
   .navigation-bar svg {
@@ -160,8 +151,8 @@ p, a, h1, h2, h3, h4, h5, label, button {
       padding: 5% 5%;
     }
   }
-<<<<<<< HEAD
 }
+
 /* ====================== Preloader ====================== */
 .loading-screen {
   position: fixed;
@@ -178,12 +169,12 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 /* Light Mode */
 .main-container.light-mode .loading-screen {
-  background-color: #f8fafc;   /* رنگ روشن */
+  background-color: #f8fafc;
 }
 
 /* Dark Mode */
 .main-container.dark-mode .loading-screen {
-  background-color: #0f172a;   /* رنگ تیره (می‌تونی تغییر بدی) */
+  background-color: #0f172a;
 }
 
 /* انیمیشن SVG */
@@ -229,6 +220,4 @@ p, a, h1, h2, h3, h4, h5, label, button {
 
 .hidden {
   display: none;
-=======
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
 }

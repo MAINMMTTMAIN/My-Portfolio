@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
-=======
-import React, {useState, useEffect} from "react";
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
 import {
   Main,
   Project,
@@ -11,18 +7,12 @@ import {
   Footer,
 } from "./components";
 import FadeIn from './components/FadeIn';
-<<<<<<< HEAD
-import Loading from './components/Loading';   // ← اضافه شد
-=======
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
+import Loading from './components/Loading';
 import './index.scss';
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
-<<<<<<< HEAD
-    const [isLoading, setIsLoading] = useState(true);   // ← اضافه شد
-=======
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
+    const [isLoading, setIsLoading] = useState(true);
 
     const handleModeChange = () => {
         if (mode === 'dark') {
@@ -32,24 +22,23 @@ function App() {
         }
     }
 
-<<<<<<< HEAD
-    // انیمیشن لودینگ برای اولین بار
+    // Preloader (انیمیشن لودینگ)
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 1800); // ۱.۸ ثانیه نمایش لودینگ
+        }, 1800);
 
         return () => clearTimeout(timer);
     }, []);
 
-    // اسکرول اولیه (کد قبلی)
+    // Scroll to top
     useEffect(() => {
         window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
     }, []);
 
     return (
         <>
-            {/* Preloader - فقط برای اولین لود */}
+            {/* Preloader */}
             {isLoading && <Loading />}
 
             <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'} ${isLoading ? 'hidden' : ''}`}>
@@ -62,22 +51,6 @@ function App() {
                 <Footer />
             </div>
         </>
-=======
-    useEffect(() => {
-        window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
-      }, []);
-    
-    return (
-    <div className={`main-container ${mode === 'dark' ? 'dark-mode' : 'light-mode'}`}>
-        <Navigation parentToChild={{mode}} modeChange={handleModeChange}/>
-        <FadeIn transitionDuration={700}>
-            <Main/>
-            <Project/>
-            <Contact/>
-        </FadeIn>
-        <Footer />
-    </div>
->>>>>>> 26eaab653d3af91985e69871d8bf53ed4a355ffb
     );
 }
 
