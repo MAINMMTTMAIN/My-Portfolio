@@ -13,6 +13,7 @@ import mock18 from '../assets/images/mock18.png';
 import mock19 from '../assets/images/mock19.mp4';
 import mock20 from '../assets/images/mock20.mp4';
 import mock21 from '../assets/images/mock21.png';
+import mock22 from '../assets/images/mock22.png';
 
 import '../assets/styles/Project.scss';
 import '../assets/styles/Carousel.scss';
@@ -42,6 +43,15 @@ function Project() {
             <h1>Personal Projects</h1>
             <div className="projects-grid">
 
+                <div className="project">
+                    <a href="https://github.com/MAINMMTTMAIN/Opensource-Xmind" target="_blank" rel="noreferrer">
+                        <img src={mock22} className="zoom" alt="thumbnail" width="60%"/>
+                    </a>
+                    <a href="https://github.com/MAINMMTTMAIN/Opensource-Xmind" target="_blank" rel="noreferrer">
+                        <h2>Opensource Xmind</h2>
+                    </a>
+                    <p>A free, open-source mind mapping app inspired by XMind, designed to help you organize ideas, plan projects, and visualize complex information with ease. Built with a clean, intuitive interface and focused on simplicity, flexibility, and productivity.</p>
+                </div>
 
                 <div className="project">
                     <a href="https://github.com/MAINMMTTMAIN/Offline-Games" target="_blank" rel="noreferrer">
@@ -50,7 +60,7 @@ function Project() {
                     <a href="https://github.com/MAINMMTTMAIN/Offline-Games" target="_blank" rel="noreferrer">
                         <h2>Offline Games</h2>
                     </a>
-                    <p>An expandable collection of local multiplayer games in Python.</p>
+                    <p>An expandable collection of local single-player and multiplayer games built with Python. Designed to bring together a variety of classic and original games in one place, with support for playing locally with friends or against AI opponents.</p>
                 </div>
 
                 <div className="project">
